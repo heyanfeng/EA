@@ -14,11 +14,9 @@ react-boilerplate是基于React，能在IE8运行的脚手架，它具有以下�
 
 ## 如何使用
 1. 本机需要安装node（6.x以上）和git
-2. 运行命令行注册sdp.nd，代码：
-```npm config set registry="http://registry.npm.sdp.nd/"```
-3. git clone http://git.sdp.nd/fed/react-boilerplate.git
-4. npm install
-5. npm run ie8:mock
+2. git clone
+3. npm install
+4. npm run dev
 
 ## 命令
 
