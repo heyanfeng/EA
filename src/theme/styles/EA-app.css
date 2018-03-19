@@ -1,0 +1,186 @@
+html,
+body,
+#app {
+  height: 100%;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.header-container {
+  position: relative;
+  padding: 10px 0;
+  font-weight: border;
+  background: #1872F9;
+  text-align: center;
+}
+
+.header-container .header-title {
+  font-size: 25px;
+  color: #fff;
+}
+
+.header-container .header-btn {
+  position: absolute;
+  left: 10px;
+  top: 30%;
+  cursor: pointer;
+  color: #fff;
+}
+
+.home-container .btn {
+  width: 50%;
+  height: 50px;
+}
+
+.home-container .ea-item {
+  position: relative;
+  display: inline-block;
+  padding: 15px 15px;
+  width: 100%;
+  border-bottom: 2px solid #fff;
+  background: slategray;
+  color: #fff;
+  cursor: pointer;
+}
+
+.home-container .ea-item:hover {
+  text-decoration: underline;
+  color: #f00;
+}
+
+.home-container .ea-item .status {
+  position: absolute;
+  right: 10%;
+}
+
+.edit-container,
+.approval-container {
+  height: 100%;  
+  position: relative;
+}
+
+.edit-container .ea-name,
+.approval-container .ea-name {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 25px;
+}
+
+.edit-container .form,
+.approval-container .form {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 10px 20px;
+  background: #F2F2F2;
+}
+
+.edit-container .form .input-item {
+  width: 50%;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.input-item .input {
+  width: 80%;
+  margin: 10px 10px;
+}
+
+.form .textarea-item .textarea-item-title {
+  margin: 10px 0;
+}
+
+.form .textarea-item .textarea {
+  width: 98%;
+  height: 300px;
+  resize: none;
+}
+
+.form .btn-item {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form .btn-item .btn {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background: #169AD5;
+  color: #fff;
+}
+
+.form .btn-item .btn.pass {
+  width: 80px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.form .btn-item .btn.reject {
+  width: 80px;
+  height: 30px;
+  background: #C9C9C9;
+}
+
+.edit-container .mask {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6)
+}
+
+.edit-container .popup {
+  position: absolute;
+  left: 50%; 
+  top: 50%;
+  margin-top: -75px;
+  margin-left: -100px;
+  width: 200px;
+  height: 150px;
+  border: 1px solid #000;
+  text-align: center;
+  background: #fff;
+}
+
+.edit-container .popup .popup-name {
+  margin: 30px 0 50px;
+}
+
+.edit-container .popup .btn {
+  width: 80px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.edit-container .popup .sure {
+  margin-right: 10px;
+  background: #169AD5;
+  color: #fff;
+}
+
+.edit-container .popup .cancel {
+  border: 1px solid #000;
+}
+
+.approval-container .approval-title {
+  margin: 50px 0;
+  text-align: center;
+  font-size: 30px;
+  font-weight: border;
+}
+
+.approval-container .approval-result {
+  text-align: center;
+}
